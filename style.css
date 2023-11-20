@@ -236,3 +236,7 @@ center{
   #squad:hover {
     transform: scale(1.1); /* Zoom in a bit on hover (optional) */
   }
+  #street{
+    color: aliceblue;
+    left: 230%;
+  }
