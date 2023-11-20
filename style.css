@@ -239,4 +239,30 @@ center{
   #street{
     color: aliceblue;
     left: 230%;
+    
+  }
+  #btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.9s;
+    right: 100px;
+  }
+  #btn:hover{
+    transform: scale(1.1);
+  }
+  #str{
+    left: 230%;
+     font-size: larger;
+     color: #c6c0c0;
+     font-style: oblique; 
+     left: 660px;
+     position: relative;
+     bottom: 160px ;
+
+     
   }
