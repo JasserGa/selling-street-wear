@@ -204,3 +204,35 @@ center{
     font-size: larger;
     width: 20%;
 }
+#squad{
+    position: relative;
+    /* left: 100px; */
+    margin-left: 1PX; 
+    bottom: 1340px;
+    height: 530px;
+    width: 180%;
+    /* left: 100px;
+    right: 100px; */
+    left: 500px;
+}
+#SQUAD{
+    position: relative;
+    left: 479px;
+    margin-left: 210PX; 
+    bottom: 1360px;
+    font-style: normal;
+    font-size: larger;
+    width: 20%;
+    transition: transform 0.3s;
+
+}
+#squad{
+    width:380px; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    transition: transform 0.3s; 
+    left: 540px;
+  }
+
+  #squad:hover {
+    transform: scale(1.1); /* Zoom in a bit on hover (optional) */
+  }
