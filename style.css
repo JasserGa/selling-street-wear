@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'roboto', sans-serif;
-    padding: 1px 1px;
+    padding: 1px 1px; 
 
 }
 .container{
@@ -23,10 +23,11 @@ body{
     /* padding: 50px; */ */
     font-family: 'Arial', sans-serif; 
     color: #33475b; 
+    background-attachment: fixed;
     
 }
 .topnav {
-    background-color: rgb(206, 173, 173); */
+    /* background-color: rgb(206, 173, 173); */ */
     overflow: hidden;
     font-style: oblique;
   }
@@ -166,4 +167,40 @@ h5{
 center{
     color: rgb(255, 255, 255);
     font-size: 22px;
+}
+#price1{
+    position: relative;
+    left: 400px;
+    margin-left: 1PX; 
+    bottom: 1257px;
+    height: 330px;
+    width: 110%;
+    left: 270%;
+}
+#price2{
+    position: relative;
+    left: 400px;
+    margin-left: 1PX; 
+    bottom: 1640px;
+    height: 330px;
+    width: 110%;
+    left: 390%;
+}
+#price{
+    position: relative;
+    left: 600px;
+    margin-left: 210PX; 
+    bottom: 1260px;
+    font-style: normal;
+    font-size: larger;
+    width: 20%;
+}
+#flex{
+    position: relative;
+    left: 960px;
+    margin-left: 210PX; 
+    bottom: 1640px;
+    font-style: normal;
+    font-size: larger;
+    width: 20%;
 }
